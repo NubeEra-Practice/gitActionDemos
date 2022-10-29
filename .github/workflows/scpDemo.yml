@@ -14,7 +14,7 @@ jobs:
         with:
           host: 44.204.31.170
           username: ubuntu
-          key_path: '/home/runner/work/GitActions/GitActions/mujahed.pem'
+          key_path: '/home/runner/work/gitActionDemos/gitActionDemos/mujahed.pem'
           port: 22
           source: "README.md,welcome.yml"
           target: "/home/ubuntu/"
