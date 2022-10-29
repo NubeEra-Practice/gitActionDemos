@@ -7,3 +7,6 @@ jobs:
       - run: echo "Welcome to NubeEra"
       - run: echo "Current OS is ${{runner.os}} "
       - run: echo "Github Event Name is ${{github.event_name}} "
+      - run: pwd
+      - run: ls ~
+      - run: ls ${{github.workspace}}
