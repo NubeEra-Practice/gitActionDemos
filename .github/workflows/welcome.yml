@@ -4,6 +4,7 @@ jobs:
   Job-Message-Actions:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - run: echo "Welcome to NubeEra"
       - run: echo "Current OS is ${{runner.os}} "
       - run: echo "Github Event Name is ${{github.event_name}} "
